@@ -1,0 +1,29 @@
+//数据绑定 运算
+Page({
+  data:{
+   msg:"hello mina" ,
+   num:100000,
+   isTrue:false,
+   person:{
+     age:74,
+     heigth:145,
+     weight:200,
+     name:"富婆"
+   },
+    isChecked:false,
+    list:[
+      {
+        id:0,
+        name:"猪八戒"
+      },
+      {
+        id:1,
+        name:"天蓬元帅"
+      },
+      {
+        id:2,
+        name:"悟能"
+      }
+    ]
+  }
+})
